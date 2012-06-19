@@ -25,6 +25,7 @@ And add its context processor to `TEMPLATE_CONTEXT_PROCESSORS`:
     TEMPLATE_CONTEXT_PROCESSORS = (
         ...
         'googlytics.context_processors.googlytics',
+        ...
     )
 
 Then in your development settings add:
@@ -39,8 +40,12 @@ And in your production settings add the real google analytics key:
 Usage
 -----
 
-Just include googlytics code in your template with:
+Use the following template tag to inject the goole analytics snippet wherever you want:
 
     {{ googlytics_code }}
 
-That will show your google analytics code if there's an actual setted key (instad of an empty string).
+Note that this will show the snippet only if there's an actual setted key (instad of an empty string).
+
+To prevent google analytics to track (logged-in) admins use the following setting:
+
+    GOOGLE_ANALYTICS_IGNORE_ADMIN = True
