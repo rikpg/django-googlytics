@@ -12,7 +12,7 @@ setup(
     include_package_data = True,
     zip_safe = False,
     url = 'https://github.com/rikpg/django-googlytics',
-    license = 'BSD licence, see LICENCE file',
+    license = 'BSD licence',
     description = 'Add google analytics snippet to your django templates.',
     long_description = open('README.md').read(),
     classifiers = [

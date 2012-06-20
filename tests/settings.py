@@ -22,6 +22,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 INSTALLED_APPS = (
-    'tests.myapp',
+    'myapp',
     'googlytics',
 )

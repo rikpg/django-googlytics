@@ -1,5 +1,5 @@
 #!/bin/sh
-export PYTHONPATH="./"
-export DJANGO_SETTINGS_MODULE="tests.settings"
+export PYTHONPATH="./:./tests/"
+export DJANGO_SETTINGS_MODULE="settings"
 
 django-admin.py test $1 $2
