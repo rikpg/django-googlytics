@@ -8,7 +8,7 @@ from django.contrib.auth.models import User, AnonymousUser
 
 
 class TestAnonUsers(TestCase):
-    """Tests various settings results for anonymous users."""
+    """Tests various settings for anonymous users."""
 
     def setUp(self):
         factory = RequestFactory()
@@ -36,7 +36,7 @@ class TestAnonUsers(TestCase):
 
 
 class TestLoggedUsers(TestAnonUsers):
-    """Tests various settings results for logged (but not staff/admin) users."""
+    """Tests various settings for logged (but not staff/admin) users."""
 
     def setUp(self):
         factory = RequestFactory()

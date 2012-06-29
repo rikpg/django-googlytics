@@ -11,14 +11,13 @@ DEBUG = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'mydatabase'
+        'NAME': 'googlytics_test.sqlite3'
     }
 }
 
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'myapp',
     'googlytics',
 )
 

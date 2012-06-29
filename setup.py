@@ -24,4 +24,8 @@ setup(
         'Natural Language :: English',
         'Programming Language :: Python',
     ],
+    test_suite='setuptest.setuptest.SetupTestSuite',
+    tests_require=(
+        'django-setuptest',
+    ),
 )
