@@ -1,6 +1,3 @@
-#
-# myapp/tests.py
-#
 from django.test import TestCase
 from django.test.client import RequestFactory
 from django.template import RequestContext

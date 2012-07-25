@@ -2,5 +2,4 @@ include README.md
 include LICENSE
 include *.sh
 recursive-include googlytics *
-recursive-include tests *
 recursive-exclude * *.pyc
