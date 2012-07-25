@@ -4,7 +4,7 @@
 #
 
 # googlytics options are often overriden during tests
-GOOGLE_ANALYTICS_KEY = 'U-XXX-X'
+GOOGLE_ANALYTICS_KEY = 'U-TEST-XXX'
 
 DEBUG = True
 
